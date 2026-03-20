@@ -1,6 +1,6 @@
 {
   "name": "unocss-preset-taro-plugin",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "Taro webpack plugin to integrate UnoCSS like tailwind plugin workflow",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs --dts",
+    "build": "tsup src/index.ts --format cjs --dts && cp src/postcss-unocss.cjs dist/postcss-unocss.cjs",
     "clean": "rimraf dist"
   },
   "keywords": [
