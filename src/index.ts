@@ -1,4 +1,5 @@
 import path from 'node:path';
+export { presetUno } from 'unocss';
 
 export interface UnoPresetTaroPluginOptions {
   uno?: Record<string, unknown>;

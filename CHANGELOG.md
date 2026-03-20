@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.5] - 2026-03-20
+
+### Added
+
+- Re-export `presetUno` from `unocss-preset-taro-plugin` so business projects can import preset from the same plugin package.
+
 ## [0.1.4] - 2026-03-20
 
 ### Fixed

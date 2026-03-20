@@ -65,14 +65,14 @@ import 'uno.css'
 
 ```ts
 import { defineConfig } from 'unocss'
-import { presetUno } from 'unocss'
+import { presetUno } from 'unocss-preset-taro-plugin'
 
 export default defineConfig({
   presets: [presetUno()],
 })
 ```
 
-> 如果你使用 `unocss-preset-taro`，可在这里追加对应 preset。
+> `presetUno` 由本插件透出，方便业务侧统一从一个包导入接入能力与默认 preset。
 
 ## 选项
 
